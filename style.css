@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Gentium+Plus:wght@400;700&family=Open+Sans:wght@400;600;700;800&display=swap');
 
 * {
-    margin:0px;
+    margin:0;
     padding:0;
 }
 
@@ -58,6 +58,12 @@ nav li a {
     color: white;
 }
 
+.website-header {
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 .herosec div .white-button {
     padding: 18px 35px;
     font-size: 20px;
@@ -69,12 +75,8 @@ nav li a {
     margin-left: 30px;
 }
 
-.header {
-    background-color: white;
-}
-
 .herosec {
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,21 +89,41 @@ nav li a {
 .hero-greet {
     font-size: 45px;
     font-weight: 600;
+    line-height: 50px;
 }
 
 .hero-title {
     font-size: 85px;
     font-weight: 700;
+    line-height: 90px;;
 }
 
 .herosec div p {
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
-    width:585px;
+}
+
+.herosec-content {
+    max-width:585px;
 }
 
 .hardy {
     width: 570px;
     height: 660px;
 }
+
+
+/* About section style */
+
+/* .aboutsec {
+    width: 1100px;
+    height: 550px;
+    margin: 100px;
+    background-color: #b9b9b9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
