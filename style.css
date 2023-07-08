@@ -1,0 +1,56 @@
+/*font style*/
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Gentium+Plus:wght@400;700&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+}
+
+.logo-text {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.orange-text {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.orange-button {
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+
+}
