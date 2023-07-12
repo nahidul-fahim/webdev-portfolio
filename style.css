@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
 
 /* ------- GLOBAL STYLES STARTS HERE ------ */
 
@@ -8,7 +10,8 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Merriweather', serif;
 
     ::selection {
         color: white;
@@ -26,6 +29,7 @@ body {
     line-height: normal;
     border: 0;
     border-radius: 3px;
+    box-shadow: 0 50px 50px -3px #fd6f0a2d;
 }
 
 .btn-secondary {
@@ -38,11 +42,12 @@ body {
     line-height: normal;
     border: 1px solid #FD6E0A;
     border-radius: 3px;
+    box-shadow: 0 50px 40px -3px #fd6f0a2d;
 }
 
 .section-desc {
     color: #757575;
-    font-size: 17px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -59,7 +64,7 @@ body {
 
 .thin-text {
     color: #757575;
-    font-size: 19px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -67,7 +72,7 @@ body {
 
 .bold-text {
     color: #444444;
-    font-size: 20px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
@@ -83,7 +88,7 @@ body {
 
 .third-title {
     color: #474747;
-    font-size: 23px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -159,7 +164,31 @@ hr {
     justify-content: center;
     align-items: flex-start;
     width: 570px;
+    gap: 20px;
     padding: 0 0 0 30px;
+}
+
+.intro-title {
+    color: #474747;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.first-title {
+    color: #181818;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button-area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
 }
 
 .hero-section-right {
@@ -195,6 +224,7 @@ main {
     background-color: #FFF8F3;
     padding: 120px 70px;
     border-radius: 8px;
+    box-shadow: 0 0 50px rgba(221, 177, 136, 0.336);
 }
 
 .about-me {
@@ -203,6 +233,10 @@ main {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.about-me p {
+    max-width: 800px;
 }
 
 .personal-info {
@@ -242,7 +276,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 6%
+    gap: 2%
 }
 
 .skill-single {
@@ -253,6 +287,9 @@ main {
     align-items: flex-start;
     text-align: left;
     gap: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.158);
+    border-radius: 10px;
 }
 
 /* WHAT-I-DO SECTION STYLE ENDS HERE */
@@ -381,6 +418,7 @@ textarea {
     padding: 7px 20px;
     font-family: 'Open Sans', sans-serif;
     color: #757575;
+    font-family: 'Merriweather', serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
