@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 
-/* GLOBAL STYLES */
+/* ------- GLOBAL STYLES STARTS HERE ------ */
 
 * {
     margin: 0;
@@ -20,34 +20,108 @@ body {
     padding: 15px 30px;
     background-color: #FD6E0A;
     color: white;
-    font-size: 20px;
+    font-size: 19px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
     border: 0;
     border-radius: 3px;
 }
 
+.btn-secondary {
+    padding: 15px 30px;
+    background-color: white;
+    color: #FD6E0A;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid #FD6E0A;
+    border-radius: 3px;
+}
 
-/* NAVIGATION BAR STYLE */
+.section-desc {
+    color: #757575;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section-title {
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.thin-text {
+    color: #757575;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bold-text {
+    color: #444444;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.second-title {
+    color: #474747;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.third-title {
+    color: #474747;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+hr {
+    background-color: #FD6E0A;
+    height: 2px;
+    width: 200px;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* ------- GLOBAL STYLE ENDS HERE ---------- */
+
+
+/* --------- WEBSITE HEADER STYLE STARTS HERE ----------- */
 
 .website-header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: #FFF8F3;
+    background: url('./images/header_bg.png') right bottom no-repeat, url('./images/developer.png') left bottom no-repeat;
 }
+
+/* NAVIGATION BAR STYLE */
 
 .nav-area {
     width: 1140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
-
 }
 
 .nav-logo-text {
+    padding: 50px 0 0 30px;
     color: #181818;
     font-size: 45px;
     font-style: normal;
@@ -67,3 +141,266 @@ body {
     line-height: normal;
     margin-right: 50px;
 }
+
+/* NAV BAR STYLE ENDS HERE */
+
+/* HERO SECTION STYLE STARTS HERE */
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+}
+
+.hero-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 570px;
+    padding: 0 0 0 30px;
+}
+
+.hero-section-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 570px;
+    padding: 0 0 0 0;
+}
+
+/* ----- WEBSITE HEADER STYLE ENDS HERE ------ */
+
+
+/* ----- MAIN SECTION STYLE STARTS HERE ----*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ABOUT ME SECTION STARTS HERE */
+
+.about-me-container {
+    width: 1140px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 120px 70px;
+    border-radius: 8px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+    margin-top: 30px;
+}
+
+/* ABOUT ME SECTION ENDS HERE */
+
+
+/* WHAT-I-DO SECTION STYLE STARTS HERE */
+
+.what-i-do-container {
+    width: 1140px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.what-i-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 800px;
+}
+
+.my-skills {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 6%
+}
+
+.skill-single {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    gap: 20px;
+}
+
+/* WHAT-I-DO SECTION STYLE ENDS HERE */
+
+
+/* MY RESUME SECTION STARTS HERE */
+
+.my-resume {
+    width: 1140px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.education-experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    gap: 4%;
+}
+
+.my-resume-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    gap: 30px;
+    width: 48%;
+}
+
+.my-resume-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    gap: 30px;
+    width: 48%;
+}
+
+.resume-single-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    gap: 20px;
+    padding: 10px 20px 10px 0;
+}
+
+.my-resume button {
+    margin-top: 50px;
+}
+
+/* MY RESUME SECTION ENDS HERE */
+
+/* ----- MAIN SECTION STYLE ENDS HERE ----*/
+
+
+/* ----- FOOTER SECTION STARTS HERE ------ */
+
+.website-footer {
+    background-color: #ffb27a3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.footer-container {
+    width: 1140px;
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    gap: 4%;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    gap: 20px;
+    width: 48%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    gap: 20px;
+    width: 48%;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-form input,
+textarea {
+    width: 400px;
+    background-color: #fd6f0a00;
+    border: 0;
+    border-radius: 4px;
+    padding: 7px 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+input:focus {
+    outline: 1px solid #FD6E0A;
+}
+
+input:hover {
+    outline: 1px solid #FD6E0A;
+}
+
+textarea:focus {
+    outline: 1px solid #FD6E0A;
+}
+
+textarea:hover {
+    outline: 1px solid #FD6E0A;
+}
+
+/* ----- FOOTER SECTION ENDS HERE ------ */
